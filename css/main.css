@@ -1,0 +1,645 @@
+/* Universal Styles ........................................................................................ */
+
+html, p, h1, h2, h3, h4, h5, h6, div, span, address, nav, title, small, form, input, select, a, ul, li, i{
+	font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	overflow-x: hidden;
+}
+.page-title-img{
+	width: 100%; 
+	height: 150px;
+}
+.color-heading {
+	color: #00305a;
+}
+.heading-main {
+	padding-bottom: 0.5rem;
+	border-bottom: 0.5px solid #202574!important;
+}
+.row-modified {
+	margin-top: -1rem;
+}
+.media-container div{
+	padding-bottom: 2rem;
+}
+form {
+	background-color: #d3d3d381;
+	padding: 10px;
+	border-radius: 4px;
+}
+.text-danger {
+	color: red!important;
+}
+
+/* Navbar Styles */
+
+.logo-image {
+	height: 10rem;
+	width: 12rem;
+}
+.navbar{
+	background-color: white;
+	border-bottom: none;
+	padding: 1.5rem 0;
+	padding-top: -3rem;
+	margin-bottom: 0;
+}
+.navbar-toggle{
+	background-color: #00305a!important;
+	border: 2px solid darkgray!important;
+	margin-top: 3rem;
+}
+.navbar-toggle:hover{
+	background-color: #1a2033!important;
+	border: 2px solid white!important;
+}
+.navbar-toggle:hover > .icon-bar{
+	color: white!important;
+	background-color: white!important;
+}		 
+.icon-bar{
+	color: white!important;
+	background-color: #fff!important;
+}
+.navbar-nav{
+	margin-top: 4rem;
+}
+.navbar-nav li {
+	padding: -0.2rem!important;
+}
+.navbar-collapse .navbar-nav li a {
+	color: #080858;
+	font-weight: bold;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.navbar-nav li:nth-child(1).active a, li:nth-child(5).active a, li:nth-child(6).active a, li:nth-child(7).active a{
+	background-color: #428bca!important;
+	color: #fff!important;
+}
+.navbar-nav li:nth-child(1):hover a, .navbar-nav li:nth-child(5):hover a, .navbar-nav li:nth-child(6):hover a, .navbar-nav li:nth-child(7):hover a{
+	background-color: #428bca!important;
+	color: #080858!important;
+}
+.navbar-nav li:nth-child(2).active .dropdown-menu a, .navbar-nav li:nth-child(3).active .dropdown-menu a, .navbar-nav li:nth-child(4).active .dropdown-menu a {
+		background-color: #fff!important;
+		color: #080858!important;
+}
+.navbar-nav li:nth-child(2).active a, .navbar-nav li:nth-child(2).active .dropdown-menu li.active a {
+		background-color: #428bca!important;
+		color: #fff!important;
+}
+.navbar-nav li:nth-child(3).active a, .navbar-nav li:nth-child(3).active .dropdown-menu li.active a {
+		background-color: #428bca!important;
+		color: #fff!important;
+}
+.navbar-nav li:nth-child(4).active a, .navbar-nav li:nth-child(4).active .dropdown-menu li.active a {
+		background-color: #428bca!important;
+		color: #fff!important;
+}
+.navbar-nav li:nth-child(2):hover, .navbar-nav li:nth-child(3):hover , .navbar-nav li:nth-child(4):hover {
+	background-color: #428bca!important;
+	color: #080858!important;
+}
+.navbar-nav li:nth-child(2):hover .dropdown-menu a {
+	background-color: #fff!important;
+}
+.navbar-nav li:nth-child(3):hover .dropdown-menu a {
+	background-color: #fff!important;
+}
+.navbar-nav li:nth-child(4):hover .dropdown-menu a {
+	background-color: #fff!important;
+}
+.navbar-nav li:nth-child(2) .dropdown-menu a:hover {
+	color: darkgrey!important;
+}
+.navbar-nav li:nth-child(3) .dropdown-menu a:hover {
+	color: darkgrey!important;
+}
+.navbar-nav li:nth-child(4) .dropdown-menu a:hover {
+	color: darkgrey!important;
+}
+.dropdown-menu {
+	padding: 0!important;
+}
+.navbar-collapse{
+	border: none;
+}
+
+/* Language Selector ............................................................................. */
+
+.row-header {
+	padding-bottom: 1rem;
+}
+.form-modified {
+	padding: 0rem!important;
+	background-color: white!important;	
+}
+.span-styled1 {
+	padding-right: 2rem;
+}
+.span-styled2 {
+	font-size: 12px; 
+	padding-left: 2rem;
+}
+
+/* Home Page Carousel ............................................................................. */
+
+.carousel {
+	padding-top: 0;
+	margin-top: 0;
+}
+.carousel-inner > .item > img {
+	width: 100%;
+	height: 200px;
+}
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+	color: white;
+}
+.carousel-control.left {
+	background-image: none!important;
+}
+.carousel-control.right {
+	background-image: none!important;
+}
+
+/* Styles for Home Page Contents............................................................................. */
+
+.glyphicon-xl , .fa{
+	font-size: 48px;
+}
+.panel-heading h2,span {
+	color: #00305a;
+}
+.panel-heading a:hover{
+	color: #428bca;
+	text-decoration: none;
+}
+
+		
+		/* Service Overview and Image Thumbnail */
+
+.parent{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+}
+.image1 {
+	background-image: url('../images/hd-image4.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.image2 {
+	background-image: url('../images/hd-image2.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.image3 {
+	background-image: url('../images/hd-image1.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.image4 {
+	background-image: url('../images/gardening.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.wrapper:hover .image1, .wrapper:focus .image1, .wrapper:hover .image2, .wrapper:focus .image2, .wrapper:hover .image3, .wrapper:focus .image3, .wrapper:hover .image4, .wrapper:focus .image4 {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+.fa-link {
+	position: absolute;
+	top: 80px;
+	right: 38%;
+	color: white;
+	background-color: black;
+	border-radius: 50%;
+	padding: 1rem;
+	display: none;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+.fa-search {
+	position: absolute;
+	top: 80px;
+	right: 52%;
+	color: white;
+	background-color: black;
+	border-radius: 50%;
+	padding: 1rem;
+	display: none;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+
+}
+
+.fa-link:hover, .fa-search:hover {
+	background-color: #428bca;
+	-webkit-transform: rotate(45deg);
+	   -ms-transform: rotate(45deg);
+	        transform: rotate(45deg)!important;
+	        	transform-origin: center!important;
+}
+.wrapper:hover .fa-link, .wrapper:focus .fa-link {
+	display: inline-block!important;
+	-webkit-animation-name: slideInDown;
+  	animation-name: slideInDown;
+}
+.wrapper:hover .fa-search, .wrapper:focus .fa-search {
+	display: inline-block!important;
+	-webkit-animation-name: slideInUp;
+  	animation-name: slideInUp;
+}
+.caption {
+	width: 100%;
+	height: 340px;
+	background-color: #fff;
+	font-size: 8px;
+}
+.caption p {
+	font-size: 18px;
+	padding: 0 1rem;
+}
+.caption h4 {
+	border: 1px solid transparent;
+	overflow: hidden;
+	padding-top: 1rem;
+}
+.wrapper {
+	width: 100%;
+	cursor: pointer;
+}
+.wrapper:hover .caption, .wrapper:focus .caption {
+	background-color: #428bca;
+}
+.wrapper:hover .caption p, .wrapper:focus .caption p{
+	font-weight: 400;
+}
+.animated {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+.animated2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+/* Styles for About Us page........................................................................................ */
+
+/* ... President Ceo Page ....*/
+
+.img-wrap-texts {
+	float:left; 
+	height:250px; 
+	margin:5px 15px; 
+	width:250px;
+}
+
+/* ...Management Page ....*/
+
+.fab-management {
+	font-size: 2rem;
+	padding-right: 2rem;
+}
+
+/* Styles for Client page........................................................................................ */
+
+.box-padd {
+	padding: 2rem 0;
+}
+.img-clients {
+	width: 15rem;
+	height: 15rem;
+	margin: 0 auto;
+	border: 1px solid darkgray;
+}
+
+/* Styles for Contact page........................................................................................ */
+
+.container-modified {
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+.contact-detail {
+	padding-bottom: 20px;
+}
+.contact-detail .fa-phone, .fa-envelope, .fa-fax {
+	padding-right: 20px;
+}
+.contact-detail h5 {
+	display: inline;
+}
+.map-container {
+	margin-top: 2rem;
+	background-color: lightgray;
+	margin-bottom: 20px;
+}
+
+/* Styles for Upload page........................................................................................ */
+
+.fas-xl{
+	font-size: 68px;
+}
+.fa-check-circle {
+	color: rgba(78, 199, 84, 0.767);
+}
+.fa-home {
+	position: absolute;
+	left: 1rem;
+	top: 1rem;
+	font-size: 24px;
+}
+
+/* Styles for Footer Section ........................................................................................... */
+
+.jumbotron-footer {
+	background-color: #00305a;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.padding-modified1 {
+	padding-left: 5rem;
+	padding-right: 2rem;
+}
+.footer-col {
+	padding-bottom: 20px;
+}
+.footer-heading {
+	color: white;
+	font-family: verdana;
+}
+.img-footer {
+	height: 4rem;
+	max-width: 100%;
+	display: inline;
+}
+.h4-footer-inline {
+	display: inline;
+}
+.footer-txt-color, .footer-txt-color a, .footer-txt-color address {
+	color: #bdbebe8e;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-txt-color a:hover {
+	color: #3455af;
+	text-decoration: none;
+}
+.footer-strip {
+	background-color: #1a2033;
+	margin-top: 2rem;
+	padding: 0.5rem 0;
+}
+.fab-footer {
+	font-size: 2.5rem;
+	padding-right: 2.6rem;
+}
+.i-padding{
+	padding-right: 1.5rem;
+}
+/* Styles for glyphicon and font awesome icons ...........................................................................................*/
+
+.fa-whatsapp {
+	color: #2dc571da!important;
+	cursor: pointer;
+}
+.fa-whatsapp:hover, .fa-facebook:hover, .fa-twitter:hover {
+	opacity: 0.7;
+}
+.fa-twitter {
+	color: dodgerblue!important;
+	cursor: pointer;
+}
+.fa-facebook {
+	color: white;
+	cursor: pointer;
+}
+#mylink {
+	color: steelblue;
+}
+#mylink:hover {
+	color: #3455af;
+}
+
+@media only screen and (min-width:768px) and (max-width:2200px) {
+	
+.footer-strip .part-l h6 {
+	float: left;
+	padding-left: 4rem;
+}
+.footer-strip .part-r h6 {
+	float: right;
+	padding-right: 4rem;
+}
+.logo-image {
+	height: 14rem;
+	width: 20rem;
+	margin-left: 2rem;
+	margin-top: -3rem;
+}	
+.contact-header {
+	padding-right: 0!important;
+	padding-left: 0!important;
+}	
+.navbar-nav{
+	margin-top: 8rem;	
+}
+.navbar-nav li{
+	border-bottom: none;	
+}
+.navbar-nav li a{
+	padding-right: 2rem!important;
+	padding-left: 1.7rem!important;			
+}
+.navbar-collapse{
+	padding-left: 0rem!important;
+	padding-right: 0rem!important;
+}
+.site-heading-lg-pos {
+	margin-top: 8rem;
+}
+.carousel-inner > .item > img {
+	width: 100%;
+	height: 500px;
+}
+.carousel-caption h3 {
+	font-family: verdana;
+	padding-bottom: 2rem;
+}
+.carousel-caption {
+	display: absolute;
+	text-align: left;
+	background-color: black;
+	width: 50rem;
+	padding: 2rem;
+	border-radius: 2px;
+	left: 80rem;
+	bottom: 15rem;
+	font-family: verdana;
+	opacity: 0.7;
+}
+.site-heading-lg {
+	font-size: 1.7rem;
+	color: #202574!important;
+}
+.separator {
+	border-left: 1px solid #202574!important;
+}
+.container-separator {
+	border-right: 1px solid #202574!important;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+	visibility: visible;
+}
+.fab-header {
+	font-size: 2rem!important;
+	padding-right: 2rem!important;
+	padding-left: 2rem!important;	
+}
+.page-title-img{
+	width: 100%; 
+	height: 300px;
+	padding-bottom: 2rem;
+}
+
+}

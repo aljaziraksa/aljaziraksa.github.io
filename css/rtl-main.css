@@ -1,0 +1,687 @@
+/* Universal Styles ........................................................................................ */
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    src: url('fonts/DroidArabicKufi.eot');
+    src: url('fonts/DroidArabicKufi.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DroidArabicKufi.woff2') format('woff2'),
+        url('fonts/DroidArabicKufi.woff') format('woff'),
+        url('fonts/DroidArabicKufi.ttf') format('truetype'),
+        url('fonts/DroidArabicKufi.svg#DroidArabicKufi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, p, h1, h2, h3, h4, h5, h6, div, span, address, nav, title, small, form, input, select, a, ul, li {
+	font-family: Droid Arabic Kufi;
+}
+
+body {
+	max-width: 100%!important;
+	box-sizing: border-box!important;
+	overflow-x: hidden!important;
+}
+.page-title-img{
+	width: 100%!important; 
+	height: 150px!important;
+}
+.color-heading {
+	color: #202574!important;
+	font-size: 2.5rem!important;
+}
+.color-heading {
+	color: #00305a!important;
+}
+.heading-main {
+	padding-bottom: 0.5rem!important;
+	border-bottom: 0.5px solid #202574!important;
+	font-size: 3rem!important;
+}
+.row-modified {
+	margin-top: -1rem!important;
+}
+.media-container div{
+	padding-bottom: 2rem!important;
+}
+form {
+	background-color: #d3d3d381!important;
+	padding: 10px!important;
+	border-radius: 4px!important;
+}
+.text-danger {
+	color: red!important;
+}
+.nav-pills li a {
+	font-size: 2rem!important;
+}
+
+/* Navbar Styles */
+
+.logo-image {
+	height: 10rem!important;
+	width: 12rem!important;
+}
+.navbar{
+	background-color: white!important;
+	border-bottom: none!important;
+	padding: 1.5rem 0!important;
+	padding-top: -3rem!important;
+	margin-bottom: 0!important;
+}
+.navbar-toggle{
+	background-color: #00305a!important;
+	border: 2px solid darkgray!important;
+	margin-top: 3rem!important;
+}
+.navbar-toggle:hover{
+	background-color: #1a2033!important;
+	border: 2px solid white!important;
+}
+.navbar-toggle:hover > .icon-bar{
+	color: white!important;
+	background-color: white!important;
+}		 
+.icon-bar{
+	color: white!important;
+	background-color: #fff!important;
+}
+.navbar-nav{
+	margin-top: 4rem!important;
+}
+.navbar-nav li {
+	padding: -0.2rem!important;
+}
+.navbar-collapse .navbar-nav li a {
+	color: #080858!important;
+	font-weight: bold!important;
+	padding-left: 2rem!important;
+	padding-right: 2rem!important;
+	padding-top: 1rem!important;
+	padding-bottom: 1rem!important;
+}
+.navbar-nav li:nth-child(1).active a, li:nth-child(5).active a, li:nth-child(6).active a, li:nth-child(7).active a{
+	background-color: #428bca!important;
+	color: #fff!important;
+}
+.navbar-nav li:nth-child(1):hover a, .navbar-nav li:nth-child(5):hover a, .navbar-nav li:nth-child(6):hover a, .navbar-nav li:nth-child(7):hover a{
+	background-color: #428bca!important;
+	color: #080858!important;
+}
+.navbar-nav li:nth-child(2).active .dropdown-menu a, .navbar-nav li:nth-child(3).active .dropdown-menu a, .navbar-nav li:nth-child(4).active .dropdown-menu a {
+		background-color: #fff!important;
+		color: #080858!important;
+}
+.navbar-nav li:nth-child(2).active a, .navbar-nav li:nth-child(2).active .dropdown-menu li.active a {
+		background-color: #428bca!important;
+		color: #fff!important;
+}
+.navbar-nav li:nth-child(3).active a, .navbar-nav li:nth-child(3).active .dropdown-menu li.active a {
+		background-color: #428bca!important;
+		color: #fff!important;
+}
+.navbar-nav li:nth-child(4).active a, .navbar-nav li:nth-child(4).active .dropdown-menu li.active a {
+		background-color: #428bca!important;
+		color: #fff!important;
+}
+.navbar-nav li:nth-child(2):hover, .navbar-nav li:nth-child(3):hover , .navbar-nav li:nth-child(4):hover {
+	background-color: #428bca!important;
+	color: #080858!important;
+}
+.navbar-nav li:nth-child(2):hover .dropdown-menu a {
+	background-color: #fff!important;
+}
+.navbar-nav li:nth-child(3):hover .dropdown-menu a {
+	background-color: #fff!important;
+}
+.navbar-nav li:nth-child(4):hover .dropdown-menu a {
+	background-color: #fff!important;
+}
+.navbar-nav li:nth-child(2) .dropdown-menu a:hover {
+	color: darkgrey!important;
+}
+.navbar-nav li:nth-child(3) .dropdown-menu a:hover {
+	color: darkgrey!important;
+}
+.navbar-nav li:nth-child(4) .dropdown-menu a:hover {
+	color: darkgrey!important;
+}
+.dropdown-menu {
+	padding: 0!important;
+}
+.navbar-collapse{
+	border: none!important;
+}
+
+/* Language Selector ............................................................................. */
+
+.row-header {
+	padding-bottom: 1rem!important;
+}
+.span-styled1 {
+	padding-left: 2rem!important;
+}
+.span-styled2 {
+	font-size: 14px!important; 
+	padding-left: 2rem!important;
+}
+.form-modified {
+	padding: 0rem!important;
+	background-color: white!important;
+}
+.form-modified select {
+	font-size: 12px!important;
+}
+
+/* Home Page Carousel ............................................................................. */
+
+.carousel {
+	padding-top: 0!important;
+	margin-top: 0!important;
+}
+.carousel-inner > .item > img {
+	width: 100%!important;
+	height: 200px!important;
+}
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+	color: white!important;
+}
+.glyphicon-chevron-left {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+.glyphicon-chevron-right {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+.carousel-control.left {
+	background-image: none!important;
+}
+.carousel-control.right {
+	background-image: none!important;
+}
+
+/* Styles for Home Page Contents............................................................................. */
+
+.glyphicon-xl , .fa{
+	font-size: 48px!important;
+}
+.panel-heading h2,span {
+	color: #00305a!important;
+}
+.panel-heading a:hover{
+	color: #428bca!important;
+	text-decoration: none!important;
+}
+
+		
+		/* Service Overview and Image Thumbnail */
+
+.parent{
+    width: 100%!important;
+    height: 180px!important;
+    overflow: hidden!important;
+    position: relative!important;
+    float: left!important;
+    display: inline-block!important;
+    cursor: pointer!important;
+}
+.image1 {
+	background-image: url('../images/hd-image4.jpg');
+    height: 100%!important;
+    width: 100%!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    -webkit-transition: all .2s!important;
+    -moz-transition: all .2s!important;
+    -o-transition: all .2s!important;
+    transition: all .2s!important;
+}
+.image2 {
+	background-image: url('../images/hd-image2.jpg');
+    height: 100%!important;
+    width: 100%!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    -webkit-transition: all .2s!important;
+    -moz-transition: all .2s!important;
+    -o-transition: all .2s!important;
+    transition: all .2s!important;
+}
+.image3 {
+	background-image: url('../images/hd-image1.jpg');
+    height: 100%!important;
+    width: 100%!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    -webkit-transition: all .2s!important;
+    -moz-transition: all .2s!important;
+    -o-transition: all .2s!important;
+    transition: all .2s!important;
+}
+.image4 {
+	background-image: url('../images/gardening.jpg');
+    height: 100%!important;
+    width: 100%!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    -webkit-transition: all .2s!important;
+    -o-transition: all .2s!important;
+    transition: all .2s!important;
+}
+.wrapper:hover .image1, .wrapper:focus .image1, .wrapper:hover .image2, .wrapper:focus .image2, .wrapper:hover .image3, .wrapper:focus .image3, .wrapper:hover .image4, .wrapper:focus .image4 {
+    -ms-transform: scale(1.2)!important;
+    -moz-transform: scale(1.2)!important;
+    -webkit-transform: scale(1.2)!important;
+    -o-transform: scale(1.2)!important;
+    transform: scale(1.2)!important;
+    opacity: 0.8;
+}
+.fa-link {
+	position: absolute!important;
+	top: 80px!important;
+	left: 38%!important;
+	color: white!important;
+	background-color: black!important;
+	border-radius: 50%!important;
+	padding: 1rem!important;
+	display: none!important;
+	transition: all .2s!important;
+}
+.fa-search {
+	position: absolute!important;
+	top: 80px!important;
+	left: 52%!important;
+	color: white!important;
+	background-color: black!important;
+	border-radius: 50%!important;
+	padding: 1rem!important;
+	display: none!important;
+	transition: all .2sv;
+}
+.fa-link:hover, .fa-search:hover {
+	background-color: #428bca!important;
+	transform: rotate(-45deg)!important;
+}
+.wrapper:hover .fa-link, .wrapper:focus .fa-link {
+	display: inline!important;
+	-webkit-animation-name: slideInDown!important;
+  	animation-name: slideInDown!important;
+}
+.wrapper:hover .fa-search, .wrapper:focus .fa-search {
+	display: inline!important;
+	-webkit-animation-name: slideInUp!important;
+  	animation-name: slideInUp!important;
+}
+.caption {
+	width: 100%!important;
+	height: 350px!important;
+	background-color: #fff!important;
+	font-size: 8px!important;
+}
+.caption p {
+	font-size: 18px!important;
+	padding: 0 1rem!important;
+}
+.caption h4 {
+	border: 1px solid transparent!important;
+	overflow: hidden!important;
+	padding-top: 1rem!important;
+}
+.wrapper {
+	width: 100%!important;
+	cursor: pointer!important;
+}
+.wrapper:hover .caption, .wrapper:focus .caption {
+	background-color: #428bca!important;
+}
+.wrapper:hover .caption p, .wrapper:focus .caption p{
+	font-weight: 400!important;
+}
+.animated {
+  -webkit-animation-duration: 0.4s!important;
+  animation-duration: 0.4s!important;
+  -webkit-animation-fill-mode: both!important;
+  animation-fill-mode: both!important;
+  animation-iteration-count: 1!important;
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+.animated2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+
+/* Styles for About Us page........................................................................................ */
+
+/* ... President Ceo Page ....*/
+
+.img-wrap-texts {
+	float:right!important; 
+	height:250px!important; 
+	margin:5px 15px!important; 
+	width:250px!important;
+}
+
+/* ...Management Page ....*/
+
+.fab-management {
+	font-size: 2rem!important;
+	padding-left: 2rem!important;
+}
+
+/* Styles for Client page........................................................................................ */
+
+.img-clients {
+	width: 15rem!important;
+	height: 15rem!important;
+	margin: 0 auto!important;
+	border: 1px solid darkgray!important;
+}
+.box-padd {
+	padding: 2rem 0!important;
+}
+
+/* Styles for Contact page........................................................................................ */
+
+.container-modified {
+	padding-top: 4rem!important;
+	padding-bottom: 2rem!important;
+}
+.map-container {
+	margin-top: 2rem!important;
+	background-color: lightgray;
+	margin-bottom: 20px!important;
+}
+.contact-detail {
+	padding-bottom: 20px!important;
+}
+.contact-detail .fa-phone, .fa-envelope, .fa-fax {
+	padding-left: 20px!important;
+}
+.contact-detail h5 {
+	display: inline!important;
+}
+
+/* Styles for Upload page........................................................................................ */
+
+.fas-xl{
+	font-size: 68px!important;
+}
+.fa-check-circle {
+	color: rgba(78, 199, 84, 0.767)!important;
+}
+.fa-home {
+	position: absolute!important;
+	right: 1rem!important;
+	top: 1rem!important;
+	font-size: 24px!important;
+}
+
+/* Styles for Footer Section ........................................................................................... */
+
+.jumbotron-footer {
+	background-color: #00305a!important;
+	margin-bottom: 0!important;
+	padding-bottom: 0!important;
+}
+.padding-modified1 {
+	padding-right: 5rem!important;
+	padding-left: 2rem!important;
+}
+.footer-col {
+	padding-bottom: 20px!important;
+}
+.footer-heading {
+	color: white!important;
+	font-family: Droid Arabic Kufi!important;
+}
+.img-footer {
+	height: 4rem!important;
+	max-width: 100%!important;
+	display: inline!important;
+}
+.h4-footer-inline {
+	display: inline!important;
+}
+.heading-inline h6{
+	display: inline;
+}
+.footer-txt-color, .footer-txt-color a, .footer-txt-color address {
+	color: #bdbebe8e!important;
+	font-family: Droid Arabic Kufi!important;
+}
+.footer-txt-color a:hover {
+	color: #3455af!important;
+	text-decoration: none!important;
+}
+.footer-strip {
+	background-color: #1a2033!important;
+	margin-top: 2rem!important;
+	padding: 0.5rem 0!important;
+}
+.fab-footer {
+	font-size: 2.5rem!important;
+	padding-left: 2.6rem!important;
+}
+.i-padding{
+	padding-left: 1.5rem!important;
+}
+
+/* Styles for glyphicon and font awesome icons ...........................................................................................*/
+
+.fa-whatsapp {
+	color: #2dc571da!important;
+	cursor: pointer!important;
+}
+.fa-whatsapp:hover, .fa-facebook:hover, .fa-twitter:hover {
+	opacity: 0.7!important;
+}
+.fa-twitter {
+	color: dodgerblue!important;
+	cursor: pointer!important;
+}
+.fa-facebook {
+	color: white!important;
+	cursor: pointer!important;
+}
+#mylink {
+	color: steelblue!important;
+}
+#mylink:hover {
+	color: #3455af!important;
+}
+.underline {
+	border-bottom: 1px solid navy;
+	color: navy;
+}
+.media-body .media-heading {
+	font-size: 2rem!important;
+}
+
+.media-body p {
+	font-size: 1.5rem!important;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:2200px) {
+
+	.footer-strip .part-l h6 {
+		float: right;
+		padding-right: 4rem;
+	}
+	.footer-strip .part-r h6 {
+		float: left;
+		padding-left: 4rem;
+	}
+	.logo-image {
+		height: 14rem!important;
+		width: 18rem!important;
+		margin-right: 2rem!important;
+		margin-top: -3rem!important;
+	}
+	.contact-header {
+		padding-right: 0!important;
+		padding-left: 0!important;
+	}
+	.navbar-nav{
+		margin-top: 8rem!important;
+	}
+	.navbar-nav li{
+		border-bottom: none!important;		
+	}
+	.navbar-nav li a{
+		font-size: 1.5rem!important;
+		padding-left: 0rem!important;
+		padding-right: 0rem!important;			
+	}
+	.navbar-collapse{
+		padding-left: 0rem!important;
+		padding-right: 0rem!important;
+	}
+	.site-heading-lg-pos {
+		margin-top: 8rem!important;
+	}
+	.site-heading-lg {
+		font-size: 2rem!important;
+		color: #202574!important;
+	}
+	.carousel-inner > .item > img {
+		width: 100%!important;
+		height: 500px!important;
+	}   
+	.carousel-caption h3 {
+		font-family: Droid Arabic Kufi;
+		padding-bottom: 2rem!important;
+	}
+	.carousel-caption {
+		display: absolute!important;
+		text-align: right!important;
+		background-color: black!important;
+		width: 50rem!important;
+		padding: 2rem!important;
+		border-radius: 2px!important;
+		right: 80rem!important;
+		bottom: 15rem!important;
+		font-family: Droid Arabic Kufi;
+		opacity: 0.7!important;
+	}
+	.separator {
+	border-right: 1px solid #202574!important;
+	}
+	.container-separator {
+	border-left: 1px solid #202574!important;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: block!important;
+		visibility: visible!important;
+	}
+	.fab-header {
+	font-size: 2rem!important;
+	padding-left: 2rem!important;
+	padding-right: 2rem!important;
+	}
+	.page-title-img{
+		width: 100%!important; 
+		height: 300px!important;
+		padding-bottom: 2rem!important;
+	}
+
+}
